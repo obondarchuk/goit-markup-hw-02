@@ -15,6 +15,7 @@
 }
 body {
   font-family: var(--main-font);
+  color: var(--title-cl)
   font-size: 14px;
   line-height: 1.71;
 }
@@ -80,6 +81,7 @@ body {
   top: 80px;
 }
 .title-btn {
+  cursor: pointer;
   background-color: #2196f3;
   font-weight: 700;
   font-size: 16px;
@@ -151,6 +153,7 @@ body {
   font-style: inherit;
 }
 .menu-btn {
+  cursor: pointer;
   font-family: var(--main-font);
   color: var(--title-cl);
   background-color: var(--team-bg);
